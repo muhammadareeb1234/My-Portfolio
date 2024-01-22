@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+}
+
+/* navbar style */
+.navbar {
+    margin: 0 auto;
+    border-bottom: 1px solid black;
+}
+
+.logo {
+    height: 60px;
+    width: 120px;
+}
+
+.search {
+    border: 2px solid #EEEEEE;
+}
+
+.navbar {
+    background-color: #ffffff;
+    font-family: sans-serif;
+}
+
+.btn-log {
+    border: 0;
+    background-color: #ffffff;
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+}
+
+.btn-sign {
+    border: 0;
+    background-color: #14a800;
+    height: 30px;
+    width: 100px;
+    border-radius: 50px;
+    /* margin-left: 10px;     */
+}
+
+/* header */
+.More {
+    background-color: #ffffff;
+    margin-top: 4px;
+}
+
+.header-section {
+    display: flex;
+}
+
+.header-section ul li a {
+    padding: 10px;
+    text-decoration: none;
+}
+
+.header-section ul li {
+    list-style: none;
+    float: left;
+    margin-top: 10px;
+}
+
+/* first block */
+.container h1 {
+    font-size: 70px;
+    color: #14a800;
+}
+
+.container h5 {
+    color: #5e6d55;
+    font: 20px;
+    line-height: 26px;
+    letter-spacing: .24px;
+    font-style: normal;
+}
+
+.btn-start {
+    margin-top: 25px;
+    border: 0;
+    background-color: #14a800;
+    color: #ffffff;
+    height: 40px;
+    width: 120px;
+    border-radius: 50px;
+}
+
+.img-head {
+    float: right;
+    position: absolute;
+    bottom: 30%;
+    left: 60%;
+}
+
+/* category pills */
+.category-pills h1 {
+    color: #001e00;
+    font-size: 42px;
+    margin: 100px 0px 12px;
+
+}
+
+.category-pills p {
+    color: #5e6d55;
+    font-size: 16px;
+}
+
+.browse {
+    color: #14a800;
+}
+
+/* cards */
+.white-long {
+    background-color: #f2f2f2;
+    height: 500px;
+    margin-top: 50px;
+    width: 1200px;
+}
+
+.category-card {
+    cursor: pointer;
+    padding: 20px;
+    height: 140px;
+    width: 250px;
+    background-color: #f7faf7;
+    border: none;
+    border-radius: 15px;
+    margin-top: 30px;
+}
+
+.star-text {
+    display: flex;
+    padding: 10px;
+}
+
+.card-comp {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
